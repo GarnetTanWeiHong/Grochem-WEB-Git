@@ -21,26 +21,26 @@ then transform into household, thus comes.
 )
 
 
-    # Set the page configuration with a title and an icon
-    st.set_page_config(page_title="Product Methodology", page_icon="💡")
+# Set the page configuration with a title and an icon
+st.set_page_config(page_title="Product Methodology", page_icon="💡")
 
-    # Display the main header for the page
-    st.write("# Product Methodology")
-    
-    # Display the header in the sidebar
-    st.sidebar.header("Product Methodology")
-    
-    # Provide an introductory description of the page
-    st.write(
-        """This page explains how the product performs the defect detection by utilising object detection technique and image quality assessment."""
-    )
-    
-    # Section header and image for PCB Defect Detection Process
-    st.write("## PCB Defect Detection Process")
-    
-    
-    # Detailed explanation of the PCB defect detection process
-    st.write(
+# Display the main header for the page
+st.write("# Product Methodology")
+
+# Display the header in the sidebar
+st.sidebar.header("Product Methodology")
+
+# Provide an introductory description of the page
+st.write(
+    """This page explains how the product performs the defect detection by utilising object detection technique and image quality assessment."""
+)
+
+# Section header and image for PCB Defect Detection Process
+st.write("## PCB Defect Detection Process")
+
+
+# Detailed explanation of the PCB defect detection process
+st.write(
 """
 ### 1. Data Acquisition
 - Images of PCB are taken by an Automated Optical Inspection(AOI) camera
@@ -57,21 +57,21 @@ then transform into household, thus comes.
 ### 4. Defect Detection 
 - Model performs segmentation of PCB defects based on inputted image
 """        
-    )  
-    
-    # Spacer for readability
-    st.write("")
-    
-    # Section header and image for Deep Learning Model
-    st.write("## Deep Learning Model")
-    
+)  
 
-    # Spacer for readability
-    st.write("")
-    
-    # Section header and detailed explanation of the Pre-label Approach
-    st.write("## Pre-label Approach")
-    st.write(
+# Spacer for readability
+st.write("")
+
+# Section header and image for Deep Learning Model
+st.write("## Deep Learning Model")
+
+
+# Spacer for readability
+st.write("")
+
+# Section header and detailed explanation of the Pre-label Approach
+st.write("## Pre-label Approach")
+st.write(
 """
 To address the “missing puzzle” of machine learning, which is the annotated printed circuit board, a pre-label approach is introduced. The labelling cost in PCBs area is relatively higher than other industries as there are required more professionals to identify. A pre-label approach has reduced the needs of professionals, and simplified the job of product owner by scanning through the result of pre-labeling, instead of manually labelling. A pre-label approach is completed via two steps. 
 
@@ -81,14 +81,14 @@ Besides, in order to ensure the performance of a simple model on the unlabelled 
 
 As the YOLOv8 is used and the Mosaic augmentation techniques are applied to YOLOv8 as well, it decreases the needs of large annotated dataset to reach the industry standard. 
 """
-    )
+)
 
-    # Spacer for readability
-    st.write("")
-    
-    # Section header and detailed explanation of the Over-rejection Test to Measure the Quality of Model
-    st.write("## Over-rejection Test to Measure the Quality of Model")
-    st.write(
+# Spacer for readability
+st.write("")
+
+# Section header and detailed explanation of the Over-rejection Test to Measure the Quality of Model
+st.write("## Over-rejection Test to Measure the Quality of Model")
+st.write(
 """
 As the pixel by pixel approach performance results in a high false-positive rate, we introduced the deep learning approach. In order to prove to the industry that our deep learning model actually meets their requirements, a series of testing has been designed as a benchmark. 
 
