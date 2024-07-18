@@ -21,8 +21,6 @@ then transform into household, thus comes.
 )
 
 
-# Set the page configuration with a title and an icon
-st.set_page_config(page_title="Product Methodology", page_icon="💡")
 
 # Display the main header for the page
 st.write("# Product Methodology")
