@@ -20,7 +20,7 @@ then transform into household, thus comes.
 """
 )
 
-def main():
+
     # Set the page configuration with a title and an icon
     st.set_page_config(page_title="Product Methodology", page_icon="💡")
 
@@ -98,6 +98,3 @@ Different from traditional models which aim to detect everything, by mixing the 
 """
     )
 
-# Run the main function when the script is executed
-if __name__ == '__main__':
-    main()
