@@ -37,7 +37,7 @@ def main():
     
     # Section header and image for PCB Defect Detection Process
     st.write("## PCB Defect Detection Process")
-    st.image('./Images Source/AOI_process.jpg')
+    
     
     # Detailed explanation of the PCB defect detection process
     st.write(
@@ -64,7 +64,7 @@ def main():
     
     # Section header and image for Deep Learning Model
     st.write("## Deep Learning Model")
-    st.image('./Images Source/yolov8 BackBone.jpg')
+    
 
     # Spacer for readability
     st.write("")
